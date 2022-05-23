@@ -94,7 +94,7 @@ def unhook_and_cleanup():
     try:
         subprocess.run(["beautifuldiscord", "--revert"], stdout = subprocess.DEVNULL)
     except Exception as error:
-        print(f"{color.red}{error}{color.red}")
+        print(f"{color.red}{error}{color.end}")
         print(f"{color.yellow}As discord is still assumingly hooked to the css, we are not going to del the css file.{color.end}")
         return
     os.remove("discord.css")
