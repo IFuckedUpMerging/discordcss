@@ -47,7 +47,7 @@
   background-color: #550202;
 }
 
-.scroller-2LSbBU {
+.chatContent-3KubbW {
   /*background-color:#550202;*/
   background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-syndicate.svg"), -webkit-gradient(linear, left top, left bottom, from(#550202), to(#300303));
   background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-syndicate.svg"), linear-gradient(#550202, #300303);
@@ -102,6 +102,10 @@
 
 .peopleColumn-29fq28 {
   background-color: #0A0A0A;
+}
+
+button[aria-label="Send a gift"] {
+  display:none;
 }
 
 /* messages
