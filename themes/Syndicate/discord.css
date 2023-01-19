@@ -53,7 +53,7 @@
   background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-syndicate.svg"), linear-gradient(#550202, #300303);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%, 100%;
+  background-size: 45%, 100%;
 }
 
 .form-2fGMdU {
@@ -64,7 +64,7 @@
   background-color: #550202;
 }
 
-.scrollableContainer-2NUZem {
+.scrollableContainer-15eg7h {
   background-color: #0A0A0A;
   border-width: 2px;
   border-style: solid;
@@ -91,13 +91,17 @@
   background-color: #0A0A0A;
 }
 
-.container-3baos1 {
+.container-YkUktl {
   background-color: #550202;
 }
 
 .theme-dark .form-2fGMdU:before {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#300303), to(#300303));
   background-image: linear-gradient(#300303, #300303);
+}
+
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  background-color: #550202;
 }
 
 .peopleColumn-29fq28 {
@@ -115,3 +119,4 @@ button[aria-label="Send a gift"] {
       border-color: #87ce87;	
   */
 /*# sourceMappingURL=discord.css.map */
+
