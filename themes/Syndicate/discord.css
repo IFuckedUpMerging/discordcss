@@ -11,6 +11,20 @@
   --background-modifier-accent:#550202;
 }
 
+.theme-dark {
+  --background-primary: #300303;
+  --background-secondary: #300303;
+  --background-tertiary: #0A0A0A;
+  --background-floating: #0A0A0A;
+  --background-secondary-alt: #200202;
+  --text-muted:#397439;
+  --interactive-muted:#224522;
+  --scrollbar-auto-thumb:#550202;
+  --scrollbar-auto-track:#300303;
+  --scrollbar-thin-thumb:#550202;
+  --background-modifier-accent:#550202;
+}
+
 * {
   font-family: "Verdana" !important;
   /*font-family: "Minnie" !important;*/
