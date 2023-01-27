@@ -9,7 +9,6 @@
   --scrollbar-auto-track:#300303;
   --scrollbar-thin-thumb:#550202;
   --background-modifier-accent:#550202;
-  --channeltextarea-background:#0A0A0A;
 }
 
 .theme-dark {
@@ -113,6 +112,10 @@
 .theme-dark .form-2fGMdU:before {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#300303), to(#300303));
   background-image: linear-gradient(#300303, #300303);
+}
+
+.theme-dark .scrollableContainer-15eg7h {
+    background: #0A0A0A;
 }
 
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
